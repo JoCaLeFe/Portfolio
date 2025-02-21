@@ -720,3 +720,12 @@ team section style start
 .heading-color {
   color: var(--accent-color);
 }
+
+/*--------------------------------------------------------------
+remove tooltip in softskill segment 
+--------------------------------------------------------------*/
+
+.softskills .percent-none span.percent {
+  display: none !important;
+}
+
